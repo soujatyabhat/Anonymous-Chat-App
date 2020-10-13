@@ -17,6 +17,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -34,12 +36,12 @@
 </nav>
 <main role = "main" class = "container-fluid">
 <center>
-    <div class = "card" style = "width:300px;margin-top:30px;background-color:silver;">
+    <div class = "card" style = "width:300px;margin-top:30px;background-color:white;">
         <div class = "card-body">
             <div class = "form-group">
                 <form action = "includes/LoginData.php" method = "POST" enctype="multipart/form-data" >
                     <div class = "form-group">
-                    <p class = "text-left"> User ID : </p>
+                    <p class = "text-left user"> User ID : </p>
                              <input type = "text" name = "name" id = "name" class = "form-control" required>
                     </div>
                     <div class = "form-group">

@@ -30,7 +30,7 @@
     if(isset($_REQUEST['share']))
     {
         $id = $_SESSION['id'];
-        $url = "http://localhost/dashboard/php_tutorial/My%20Projects/Silent%20Message/message.php?id=$id";
+        $url = "http://127.0.0.1/dashboard/Anonymous-Chat-App/message.php?id=$id";
         echo "<script> alert('Copy link : $url') </script>";
     }
     ?>
