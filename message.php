@@ -44,16 +44,16 @@
         }
     ?>
 </head>
-<body>  
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Anonymous Talking</a>
+<body style = "background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8hU9GRIz_z64KvSyPphA1ly2NCqaMc0aQzw&usqp=CAU);">  
+<nav class="navbar navbar-expand-lg"style="background-color: rgba(0,0,0,0.6);">
+  <a class="navbar-brand" href="#" style="color: #ffffff;">Anonymous Talking</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.php"> <b> Create Account </b> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="login.php">Login</a>
+      <a class="nav-item nav-link active" href="index.php" style="color: #ffffff;"> <b> Create Account </b> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="login.php" style="color: #ffffff;">Login</a>
       <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
     </div>
   </div>
@@ -71,11 +71,5 @@
             </div>
         </form>
 </main>
-    <br>
-<footer class="footer">
-      <div class="container-fluid bg-dark text-right" style = "padding:20px">
-        <span class="text-white" id = "submit"> <i> Developed By : Soujatya Bhattacharya </i> </span>
-      </div>
-</footer>
 </body>
 </html>

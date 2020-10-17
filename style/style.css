@@ -1,7 +1,9 @@
-body
+.pic
 {
     margin:0;
     padding:0;
+    background-image:url("https://desktopwalls.net/wp-content/uploads/2014/09/Minions%20Hanging%20On%20Funny%20Desktop%20Wallpaper.jpg");
+    background-size: cover;
 }
 .sdw
 {
@@ -25,5 +27,37 @@ body
     color:red;
 }
 .user{
-    font-weight: 900;
+    font-weight: bold;
+
 }
+.abc{
+    border-radius: 20px;
+    color:#fff;
+    font-weight: bold;
+    border:3px solid #33afff;
+    transform: 2s;
+    transition: 1s ease;
+    background-image: linear-gradient(to top,#7433ff,#33afff 50%); 
+    box-shadow: 5px 5px #aaaaaa;
+}
+.bcd{
+    border-radius: 20px;
+    color:#fff;
+    border:3px solid #39ff33;
+    font-weight: bold;
+    transform: 2s;
+    transition: 1s ease;
+    background-image: linear-gradient(to top,#33ff7d,#39ff33 50%); 
+    box-shadow: 5px 5px #aaaaaa;
+}
+.back2{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRh4xjlqyJw0D3nJ3Br4-CwNCvuFeHL_RUQpw&usqp=CAU);
+      background-size: contain;
+}
+.back3{
+background-image: url(https://wallpaper-house.com/data/out/10/wallpaper2you_454157.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+
