@@ -20,23 +20,23 @@
 
      <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Anonymous Talking</a>
+<body class="pic">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.6);">
+  <a class="navbar-brand" href="#" style="color: #ffffff;">Anonymous Talking</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.php"> Create Account <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="login.php">Login</a>
+      <a class="nav-item nav-link active" href="index.php" style="color: #ffffff;"> Create Account <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="login.php" style="color: #ffffff;">Login</a>
       <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
     </div>
   </div>
 </nav>
 <main role = "main" class = "container-fluid">
 <center>
-    <div class = "card" style = "width:300px;margin-top:30px;background-color:white;">
+    <div class = "card" style = "width:300px;margin-top:30px;background-image: linear-gradient(to top,#fff033,#33beff 50%);">
         <div class = "card-body">
             <div class = "form-group">
                 <form action = "includes/LoginData.php" method = "POST" enctype="multipart/form-data" >
@@ -45,7 +45,7 @@
                              <input type = "text" name = "name" id = "name" class = "form-control" required>
                     </div>
                     <div class = "form-group">
-                    <p class = "text-left"> Password : </p>
+                    <p class = "text-left user"> Password : </p>
                              <input type = "password" name = "password" id = "password" class = "form-control" required>
                     </div>
                     <div class = "form-group">
@@ -59,11 +59,5 @@
         </div>
 </center>
 </main>
-<br> <br> <br> <br> <br> <br>
-<footer class="footer">
-      <div class="container-fluid bg-dark text-right" style = "padding:20px">
-        <span class="text-white"> <i> Developed By : Soujatya Bhattacharya </i> </span>
-      </div>
-</footer>
 </body>
 </html>

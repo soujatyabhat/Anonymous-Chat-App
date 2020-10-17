@@ -29,8 +29,9 @@
     <style>
          body
          {
-             background-color:maroon;
-             background-size: cover;
+        background-image: url(https://www.desktopbackground.org/download/1600x900/2011/09/09/262875_minions-hd-wallpapers-free-download_1600x1067_h.jpg);
+        background-size: cover;
+        background-repeat: repeat;
          }
     </style>
 </head>
@@ -46,7 +47,7 @@
          {
     ?>
         <div class = "container" style = "background-color:#ffffb3;color:black; padding:40px; border:5px ridge silver; border-radius:20px;">
-                <caption> <b> Date : <?php echo $row[2] ?> </cation> </b>
+                <caption> <b> Time : <?php echo $row[2] ?> </cation> </b>
                 <p style = "text-align:justify"> <strong> Message : </strong> <?php echo $row[1] ?> </p>
                 <a href = "includes/delete.php?id=<?php echo $row[3]?>" class = "btn btn-danger"> Delete </a>
         </div>

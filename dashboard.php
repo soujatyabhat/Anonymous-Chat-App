@@ -34,28 +34,25 @@
         echo "<script> alert('Copy link : $url') </script>";
     }
     ?>
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
-<body>
-    <div class = "jumbotron bg-dark text-white">
-        <h1> Welcome to Anonymous Talking </h1>   
-            <a href = "includes/logout.php"  style = "float:right;"> <img src = "images/power-off-solid.png" width = "30px" height = "30px" title = "Logout"/> </a>
+<body class="back2"style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRh4xjlqyJw0D3nJ3Br4-CwNCvuFeHL_RUQpw&usqp=CAU); background-size: contain;">
+    <div class = "jumbotron " style = "background-color:rgba(0,0,0,0.6);">
+        <h1 style="color: #ffffff;"> Welcome to Anonymous Talking </h1>   
+            <a href = "includes/logout.php"  style = "float:right; background-color:transparent;"> <img src = "images/power-off-solid.png" width = "30px" height = "30px" title = "logout"/> </a>
     </div>
-    <p> Your Name :  <?php echo  $_SESSION['name'] ?> </p>
+    <p style="font-size: 25px; font-weight: bold; color: #ff0000;"> Your Name :  <?php echo  $_SESSION['name'] ?> </p>
     <main role = "main" class = "container">
     <br>
 
         <center>
         <form>
-            <button type = "submit" class = "btn btn-primary col-lg-3 col-md-3 col-sm-3 col-3" style ="height:100px" name = "share"> Share Link  </button>
-            <a href = "display.php" style = "text-decoration:none;" class = "btn btn-success col-lg-3 col-md-3 col-sm-3 col-3" style ="height:500px"> Message </a>
+            <button type = "submit" class = "btn btn-primary col-lg-3 col-md-3 col-sm-3 col-3 abc" style ="height:100px" name = "share"> Share Link  </button>
+
+             <button class = "btn btn-warning col-lg-3 col-md-3 col-sm-3 col-3 bcd" style ="height:100px"> <a href = "display.php" style = "text-decoration:none;"> Message </a> </button> 
         </center>
         </form>
     </main>
-<footer class="footer" style = "margin-top:200px;">
-      <div class="container-fluid bg-dark text-right" style = "padding:20px">
-        <span class="text-white"> <i> Developed By : Soujatya Bhattacharya </i> </span>
-      </div>
-</footer>
 </body>
 </html>

@@ -45,8 +45,8 @@
     
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="back3">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.6);">
   <a class="navbar-brand" href="#">Anonymous Talking</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
 <main role = "main" class = "container">
         <br>
 <center>
-<div class = "card" style = "width:500px;margin-top:30px;background-color:silver;">
+<div class = "card" style = "width:500px;margin-top:30px;background-image: linear-gradient(to top,#000000,#aaaaaa 50%);">
         <div class = "card-body">
         <form method = "POST" class = "form">
             <br>
@@ -90,11 +90,5 @@
     </fieldset>
 </center>
 </main>
-<br> <br> 
-<footer class="footer">
-      <div class="container-fluid bg-dark text-right" style = "padding:20px">
-        <span class="text-white"> <i> Developed By : Soujatya Bhattacharya </i> </span>
-      </div>
-</footer>
 </body>
 </html>
